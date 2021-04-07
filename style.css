@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color:#2E2A68;
+    font-family: 'Poppins', sans-serif;
+}
+/* USER CARD SECTION */
+
+.card{
+    background-color: #661a99;
+    background-image: linear-gradient(315deg, #201c5e 0%,  #552377 74%); 
+    
+    display: flex;
+    padding: 3rem;
+    border-radius: 20px;
+    max-width: 800px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* IMAGE AND IMAGE-CONTAINER */
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* uSER INFO SECTION */
+.user-info{
+    margin-left: 2rem;
+    color: #E5E3EA;
+}
+
+.user-info h2{
+    font-size: 1.5rem;
+    margin-top: 0%;
+}
+
+.user-info p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* FORM AND INPUT FIELD */
+input{
+    padding: 1.5rem;
+    border:none;
+    background-color:#4f4a94;
+    font-size: 1rem;
+    border-radius: 10px;
+    min-width: 250px;
+    color: white;
+}
+
+input::placeholder{
+    color:hsl(0, 100%, 98%);
+    opacity: 0.5;
+}
+
+form{
+    margin-bottom: 30px;
+    overflow: hidden;
+    border-radius: 10px;
+    color:hsl(0, 100%, 98%);   
+}
+
